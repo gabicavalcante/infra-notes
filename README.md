@@ -1,2 +1,3 @@
-# infra-notes
-repo to save a few notes about infra topics
+# infra notes
+
+Repo to save a few notes about infra topics. 
