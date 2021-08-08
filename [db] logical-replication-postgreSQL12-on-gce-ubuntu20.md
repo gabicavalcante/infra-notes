@@ -4,6 +4,10 @@ DBaaS services are great (like Google Cloud SQL, Azure Database for PostgreSQL, 
 
 Now I want to learn how I can configure logical replication using postgreSQL on Google Compute Engine. 
 
+## postgreSQL Replication
+
+- physical replication:: replicate the entire database cluster to another server. everything will be replicated, so you cannot replicate only certain databases or tables.
+- logical replication: 
 
 # setup VM
 
@@ -67,7 +71,15 @@ now
 sudo systemctl restart postgresql
 ```
 
-[1] https://cloud.google.com/community/tutorials/setting-up-postgres
-[3] https://www.digitalocean.com/community/tutorials/how-to-set-up-logical-replication-with-postgresql-10-on-ubuntu-18-04
-[2] https://medium.com/google-cloud/gcp-postgresql-compute-engine-snapshot-based-replication-eg-production-to-development-d90eb0477e90
-[4](https://cloud.netapp.com/blog/azure-cvo-blg-azure-postgresql-managed-or-self-managed)
+# references
+
+- [1] https://cloud.google.com/community/tutorials/setting-up-postgres
+- [3] https://www.digitalocean.com/community/tutorials/how-to-set-up-logical-replication-with-postgresql-10-on-ubuntu-18-04 
+- [2] https://medium.com/google-cloud/gcp-postgresql-compute-engine-snapshot-based-replication-eg-production-to-development-d90eb0477e90 
+- [Azure PostgreSQL: Managed or Self-Managed?](https://cloud.netapp.com/blog/azure-cvo-blg-azure-postgresql-managed-or-self-managed)
+- [Run a Postgres instance for cheap in Google Cloud](https://medium.com/joncloudgeek/run-a-postgres-instance-for-cheap-in-google-cloud-d435a6deac8b)
+
+
+# to read
+- [ ] https://www.youtube.com/watch?v=NaPnYQBBdyU
+
