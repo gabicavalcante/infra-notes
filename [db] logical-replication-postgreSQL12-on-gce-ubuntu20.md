@@ -1,5 +1,10 @@
 # Set Up Logical Replication with PostgreSQL 12 on Google Compute Engine using Ubuntu 20 
 
+DBaaS services are great (like Google Cloud SQL, Azure Database for PostgreSQL, Amazon RDS, etc), but sometimes I need to make a full setup, like use a custom extension or choose the OS. For this case, I need to a virtual machine. 
+
+Now I want to learn how I can configure logical replication using postgreSQL on Google Compute Engine. 
+
+
 # setup VM
 
 Firstly I created two VM and installed the postgres.
@@ -65,3 +70,4 @@ sudo systemctl restart postgresql
 [1] https://cloud.google.com/community/tutorials/setting-up-postgres
 [3] https://www.digitalocean.com/community/tutorials/how-to-set-up-logical-replication-with-postgresql-10-on-ubuntu-18-04
 [2] https://medium.com/google-cloud/gcp-postgresql-compute-engine-snapshot-based-replication-eg-production-to-development-d90eb0477e90
+[4](https://cloud.netapp.com/blog/azure-cvo-blg-azure-postgresql-managed-or-self-managed)
